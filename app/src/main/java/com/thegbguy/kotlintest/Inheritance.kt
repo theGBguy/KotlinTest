@@ -14,7 +14,7 @@ fun main(){
     val newCar: Car = Toyota()
     newCar.printCarInfo()
 
-    val newCarLatest: Car = Car("Toyota")
+    val newCarLatest = Car("Toyota")
     newCarLatest.printCarInfo()
 
     newCar.printCarId()
